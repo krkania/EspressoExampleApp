@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C0D3DD"
+    android:background="#CF2013"
     tools:context=".MainActivity">
 
     <Button
@@ -50,17 +50,35 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="393dp"
+        android:layout_height="86dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="-13dp"
         android:fontFamily="casual"
-        android:text="Who Won?"
+        android:text="Did State win?"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#FFFFFF"
-        android:textSize="55sp"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="337dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="-30dp"
+        android:text="NEW PHONE, WHO DIS?"
+        android:textColor="#F7F4DF"
+        android:textSize="80dp"
         android:textStyle="bold" />
 </RelativeLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C0D3DD"
+    android:background="#08288B"
     tools:context=".MainActivity">
 
     <Button
@@ -50,17 +50,33 @@
 
     <TextView
         android:id="@+id/textView"
+        android:layout_width="412dp"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="-36dp"
+        android:fontFamily="casual"
+        android:text="Did Duke Win?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/answer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="180dp"
-        android:fontFamily="casual"
-        android:text="Who Won?"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="#FFFFFF"
-        android:textSize="55sp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="182dp"
+        android:text="NO"
+        android:textColor="#DF0A0A"
+        android:textSize="150dp"
         android:textStyle="bold" />
 </RelativeLayout>
