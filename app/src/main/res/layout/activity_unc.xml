@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#97D0E9"
+    android:id="@+id/uncPage"
     tools:context=".MainActivity">
 
     <Button
@@ -68,7 +69,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/answer"
+        android:id="@+id/UNCanswer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -76,8 +77,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="68dp"
         android:layout_marginTop="185dp"
-        android:text="YES"
-        android:textColor="#4CAF50"
+        android:text=""
+        android:textColor="@color/black"
         android:textSize="150sp"
         android:textStyle="bold"
         android:visibility="visible" />

@@ -2,9 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/statePage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CF2013"
+    android:background="@color/stateRed"
     tools:context=".MainActivity">
 
     <Button
@@ -67,7 +68,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/answer"
+        android:id="@+id/stateAnswer"
         android:layout_width="wrap_content"
         android:layout_height="337dp"
         android:layout_alignParentStart="true"
@@ -77,8 +78,8 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="137dp"
         android:layout_marginEnd="-30dp"
-        android:text="NEW PHONE, WHO DIS?"
-        android:textColor="#F7F4DF"
+        android:text="...state who?"
+        android:textColor="@color/white"
         android:textSize="80dp"
         android:textStyle="bold" />
 </RelativeLayout>
